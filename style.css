@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+#LOGO {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  position: relative;
+  top: 10PX;
+  right: 15PX;
+  background-color: #0d1b2a;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: #0d1b2a;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+
+}
+
+nav .logo {
+  font-size: 1.5rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: skyblue;
+
+}
+section {
+  scroll-margin-top: 80px; /* navbar height */
+}
+
+
+#element {
+  color: rgb(170, 107, 228);
+}
+
+.first {
+  display: flex;
+  justify-content: space-around;
+  /* margin: 23px; */
+  align-items: center;
+  margin: 0;
+  height: 70vh;
+}
+
+.first>div {
+  width: 30%;
+  margin: 70px 0;
+
+}
+
+.leftsection {
+  font-size: 3rem;
+
+}
+
+.rightsection img {
+  height: 300px;
+  filter: drop-shadow(0 0 20px rgba(168, 85, 247, 0.5));
+
+}
+
+/*PROJECT CSS*/
+#Projects {
+  text-align: center;
+  padding: 50px;
+  color: skyblue;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+#Projects h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: skyblue;
+  text-shadow: 0 0 10px rgba(135, 206, 250, 0.5);
+  /* halka glow */
+}
+
+
+.project-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /* cards ke beech space */
+  margin-top: 30px;
+}
+
+.project-card {
+  background: #1b1b2e;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 300px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-card h3 {
+  margin: 16px 10px;
+  font-size: 20px;
+}
+
+.project-card p {
+  font-size: 14px;
+  padding: 0 15px 20px;
+  color: #ccc;
+}
+
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+.project-card a img {
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.project-card a img:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+  /* thoda chamak */
+}
+
+.project-card h3 {
+  margin: 16px 10px;
+  font-size: 20px;
+  color: skyblue;
+}
+
+/* ===== ABOUT SECTION ===== */
+.about {
+  padding: 80px 10%;
+  color: white;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: skyblue;
+  text-shadow: 0 0 10px rgba(135, 206, 250, 0.5);
+  /* halka glow */
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #ddd;
+}
+
+.about-img {
+  flex: 1;
+  text-align: center;
+}
+
+.about-img img {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  border: 5px solid #66ccff;
+  object-fit: cover;
+  box-shadow: 0 0 25px rgba(102, 204, 255, 0.4);
+}
+
+.contact {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.contact h2 {
+ text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: skyblue;
+  text-shadow: 0 0 10px rgba(135, 206, 250, 0.5);
+}
+
+.contact-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+
+.contact-card:hover {
+  transform: translateY(-5px);
+}
+
+.contact-card i {
+  font-size: 20px;
+  margin-right: 8px;
+  color:skyblue;
+  
+}
+
+.contact-card a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #eee;
+}
+
+.contact-card a:hover {
+  color: #0077b5;
+}
+
+.footer {
+  text-align: center;
+  padding: 15px;
+  color: #eee;
+  font-size: 14px;
+}

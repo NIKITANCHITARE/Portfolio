@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikita Porfolio </title>
+    <link rel="icon" type="image/png" sizes="512x512" href="NCLogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h3> <img ID="LOGO" src="NCLogo.png" alt="Logo">NIKITA CHITARE </h3>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#Projects">Project</a></li>
+                    <li><a href="#AboutMe">About Me</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!--HOME-->
+        <section class="first" id="home">
+            <div class="leftsection">Hi, My Name is Nikita
+                <div> and I am Passionate</div>
+
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="WebDevelopment.png" alt="dev" class="profile-pic">
+            </div>
+        </section>
+
+        <!--SECTION 2 (PROJECTS)-->
+        <!-- PROJECTS -->
+        <section id="Projects">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <a href="https://nikitanchitare.github.io/SIMON_SAYS_GAME/" target="_blank">
+                        <img src="Game1.jpg" alt="memory_game">
+                    </a>
+                    <h3>Simon_Says_Game</h3>
+                    <p>Web-based memory game built using HTML, CSS, and JavaScript.
+                        Implemented random pattern generation, user input tracking,
+                        and responsive design to enhance user experience.
+                    </p>
+
+
+                </div>
+                <div class="project-card">
+                    <a href="https://github.com/NIKITANCHITARE/XO_Wars" target="_blank">
+                        <img src="Game2.jpg" alt="xowars">
+                    </a>
+                    <h3>XO_Wars</h3>
+                    <p>Java-based two-player game.
+                        Developed interactive console-based game using 2D arrays.
+                        Implemented move validation and real-time gameplay feedback.
+                        Designed for easy understanding of game logic.
+                    </p>
+
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- ABOUT ME SECTION -->
+        <section id="AboutMe" class="about">
+            <h2>About Me</h2>
+            <div class="about-container">
+                <div class="about-text">
+
+                    <p>
+                        Hello! I'm <b>Nikita Chitare</b>, a passionate Computer Science student with experience in
+                        <b>Java, HTML, CSS, JavaScript</b>. I enjoy solving real-world problems, building
+                        projects, and continuously learning new technologies. <br><br>
+
+                    </p>
+                </div>
+                <div class="about-img">
+                    <img src="MY_PROFILE_PIC.jpg" alt="Nikita Chitare">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <div class="contact-grid">
+
+
+                <div class="contact-card">
+                    <i class="fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/nikita-chitare-089b3b270/" target="_blank">LinkedIn</a>
+                </div>
+
+                <div class="contact-card">
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/NIKITANCHITARE" target="_blank">GitHub</a>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:nikitanchitare2710@gmail.com">nikitanchitare2710@gmail.com</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+        <p>© 2025 Nikita Chitare. All Rights Reserved.</p>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Java Developer', 'Web Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
